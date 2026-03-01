@@ -45,7 +45,7 @@
     color: #ffffff;
     transition: 0.3s;
     /* text-align: center; */
-} */
+
 
 /* main */
 /* 
@@ -433,3 +433,38 @@
     padding: 10px 30px;
     border-radius: 30px;
 } */
+
+
+
+
+
+
+@media (max-width: 992px) {
+    .hero-content p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 992px) {
+    .hero-content h1 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 992px) {
+    .recent-posts {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 992px) {
+    .recent-posts .post-title {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    .footer {
+        font-size: 10px;
+    }
+}
