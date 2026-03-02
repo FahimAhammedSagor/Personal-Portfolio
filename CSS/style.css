@@ -5,6 +5,7 @@
     ;
 }
 
+
 /* ::root {
     --dark: rgba(19, 34, 56, 1);
 } */
@@ -29,7 +30,6 @@
 
 .nav-item:hover {
     background: #8f2cf0;
-    color: #ffffff !important;
     transition: 300ms;
     border-radius: 4px;
 
@@ -162,7 +162,7 @@
 
 .process-card h5 {
     font-weight: 600;
-    margin: 15px 0 10px;
+    /* margin: 15px 0 10px; */
 }
 
 .process-card p {
@@ -256,9 +256,9 @@
 }
 
 .person-1 {
-    width: 320px;
-    border-radius: 25px;
-    margin-top: 30px;
+    width: 240px;
+    border-radius: 16px;
+    margin-top: 30px !important;
 }
 
 /* WORK PROCESS */
@@ -406,7 +406,7 @@
 
 }
 
-.icon-box {
+/* .icon-box {
     width: 50px;
     height: 50px;
     background: #e2c8fa88;
@@ -418,7 +418,7 @@
     color: #ae6eef;
     font-size: 20px;
     margin-right: 15px;
-}
+} */
 
 .process-card:hover .icon-box {
     background: #8d5bea;
@@ -473,30 +473,47 @@
 @media (max-width: 992px) {
     .hero-content p {
         font-size: 16px;
+        /* text-align: center; */
     }
 }
 
+
 @media (max-width: 992px) {
     .hero-content h1 {
-        font-size: 30px;
-        text-align: center;
+        font-size: 33px;
+        /* text-align: center; */
+        font-weight: 600;
     }
 }
 
 @media (max-width: 992px) {
     .person-1 {
-        text-align: center;
+        margin: 0 auto;
     }
 }
 
 @media (max-width: 992px) {
-    .recent-posts .post-title {
-        font-size: 20px;
+    .hero-content-li h3 {
+        font-size: 19px;
     }
 }
 
 @media (max-width: 992px) {
-    .footer {
-        font-size: 10px;
+    .hero-content-li p {
+        font-size: 14px;
     }
 }
+
+@media (max-width: 992px) {
+    .hero-content-li {
+        padding: 9px;
+    }
+}
+
+@media (max-width: 992px) {
+    .button-res {
+        font-size: 16px;
+        text-align: center !important;
+    }
+}
+

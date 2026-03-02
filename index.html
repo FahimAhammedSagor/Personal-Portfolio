@@ -11,6 +11,13 @@
 
     <link rel="stylesheet" href="CSS/bootstrap.min.css">
     <link rel="stylesheet" href="CSS/style.css">
+
+    <style>
+        *{
+            margin: 0;
+            box-sizing: border-box;
+        }
+    </style>
 </head>
 
 <body>
@@ -34,22 +41,22 @@
                     </div>
                     <ul class="navbar-nav mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active"  aria-current="page" href="index.html">Home</a>
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active"  aria-current="blog" href="#">About</a>
+                            <a class="nav-link active" aria-current="blog" href="#">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active"  aria-current="page" href="#">Process</a>
+                            <a class="nav-link active" aria-current="page" href="#">Process</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active"  aria-current="page" href="#">Portfolio</a>
+                            <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active"  aria-current="page" href="#">Blog</a>
+                            <a class="nav-link active" aria-current="page" href="#">Blog</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active"  aria-current="page" href="#">Services</a>
+                            <a class="nav-link active" aria-current="page" href="#">Services</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active  " aria-current="page" href="#">Contact</a>
@@ -130,14 +137,14 @@ background: linear-gradient(18deg, rgba(255, 252, 252, 1) 0%, rgba(252, 242, 242
 ">
             <div class="container">
                 <div class="row align-items-center flex-column-reverse flex-lg-row">
-                    <div class="col-lg-7 hero-content  mt-3">
-                        <h1 >Hello, I'm <br> Fahim Ahammed</h1>
+                    <div class="col-lg-7 text-center  hero-content  mt-3">
+                        <h1>Hello, I’m <br> Fahim Ahammed</h1>
                         <p>
                             I'm a Freelance UI/UX Designer and Developer. I build modern and
                             user-centric web applications.
                         </p>
 
-                        <a href="#" class="button">Say Hello!</a>
+                        <a href="#" class="button  button-res">Say Hello!</a>
 
                         <ul class="hero-content-li list-unstyled d-flex mt-5">
                             <li>
@@ -160,14 +167,44 @@ background: linear-gradient(18deg, rgba(255, 252, 252, 1) 0%, rgba(252, 242, 242
                     </div>
                 </div>
             </div>
+            <div class="container">
+                <div class="card border border-0 ">
+                    <div class="row align-items-center flex-column- flex-lg-row">
+                        <div class="col-lg-5 text-center">
+                            <img src="image/person.png" class="person-1" alt="">
+                        </div>
+                        <!-- <div class="col-lg-7 hero-content  mt-3"> -->
+                        <div class="col-md-4 mt-5  mb-2">
+                            <h4 class="fw-bold">I am Professional User Experience Designer</h4>
+                            <p class="text-muted mt-3">
+                                I design and develop services for customers specializing creating stylish, modern
+                                websites,
+                                web services and online stores. My passion is to design digital user experiences.
+                            </p>
+                            <a href="#" class=" button button-res  px-4">
+                                Project
+                            </a>
+                            <a href="#" class=" button button-res px-4">
+                                Download CV
+                            </a>
+                        </div>
+                        <!-- </div> -->
+
+
+                    </div>
+                </div>
+            </div>
             <!-- </section> -->
 
             <!-- <section class="py-5" style="background: linear-gradient(135deg,#e1e1e1,#ffffff,#e5feeb);"> -->
-            <div class="container  ">
-                <div class="card border-0 shadow-lg rounded-4 p-4 ">
+            <!-- <div class="container  ">
+                <div class=" border-0 shadow-lg rounded-4 p-4 ">
                     <div class="row ">
-                        <div class="col-md-4 " >
-                            <img src="image/person.png" class="cats img-fluid person-1 rounded-4 shadow">
+                        <div class="col-md-4 ">
+                            <div>
+                                <img src="image/person.png" class=" ms-4 img-fluid person-1 rounded-4 shadow" >
+                                <div></div>
+                            </div>
                         </div>
                         <div class="col-md-4 mt-5">
                             <h4 class="fw-bold">I am Professional User Experience Designer</h4>
@@ -176,20 +213,20 @@ background: linear-gradient(18deg, rgba(255, 252, 252, 1) 0%, rgba(252, 242, 242
                                 websites,
                                 web services and online stores. My passion is to design digital user experiences.
                             </p>
-                            <a href="#" class=" button  px-4">
+                            <a href="#" class=" button button-res  px-4">
                                 Project
                             </a>
-                            <a href="#" class=" button  px-4">
+                            <a href="#" class=" button button-res px-4">
                                 Download CV
                             </a>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </section>
 
         <!-- WORK PROCESS -->
-        <section class="work-process">
+        <section class="work-process ">
             <div class="container">
                 <div class="row align-items-center">
 
@@ -202,22 +239,22 @@ background: linear-gradient(18deg, rgba(255, 252, 252, 1) 0%, rgba(252, 242, 242
                     <div class="col-lg-7">
                         <div class="process-grid">
                             <div class="process-card">
-                                <div class="icon-box"><i class="fa-regular fa-calendar"></i></div>
+                                <div class="icon-box mb-2"><i class="fa-regular fa-calendar"></i></div>
                                 <h5>1. Research</h5>
                                 <p>Lorem ipsum dolor sit amet.</p>
                             </div>
                             <div class="process-card">
-                                <div class="icon-box"><i class="fa-solid fa-chart-simple"></i></div>
+                                <div class="icon-box mb-2"><i class="fa-solid fa-chart-simple"></i></div>
                                 <h5>2. Analyze</h5>
                                 <p>Lorem ipsum dolor sit amet.</p>
                             </div>
                             <div class="process-card">
-                                <div class="icon-box"><i class="fa-solid fa-pen"></i></div>
+                                <div class="icon-box mb-2"><i class="fa-solid fa-pen"></i></div>
                                 <h5>3. Design</h5>
                                 <p>Lorem ipsum dolor sit amet.</p>
                             </div>
                             <div class="process-card">
-                                <div class="icon-box"><i class="fa-solid fa-rocket"></i></div>
+                                <div class="icon-box mb-2"><i class="fa-solid fa-rocket"></i></div>
                                 <h5>4. Launch</h5>
                                 <p>Lorem ipsum dolor sit amet.</p>
                             </div>
@@ -241,7 +278,7 @@ background: linear-gradient(40deg, rgba(252, 242, 251, 0.52) 0%, rgba(255, 255, 
                         but the majority have suffered alteration.</p>
                 </div>
                 <div class="card-group mt-5 ">
-                    <div class="card border-0 Portfolio-text">
+                    <div class="card ms-3 me-3 border-0 Portfolio-text">
                         <img src="image/1 (1).png" class="card-img-top Portfolio-image" alt="...">
                         <div class="card-body -text">
                             <p class=" text-body-tertiary">UI-UX DESIGN</p>
@@ -253,7 +290,7 @@ background: linear-gradient(40deg, rgba(252, 242, 251, 0.52) 0%, rgba(255, 255, 
 
                         </div>
                     </div>
-                    
+
                     <div class="card ms-3 me-3 border-0 Portfolio-text">
                         <img src="image/1 (2).png" class="card-img-top Portfolio-image " alt="...">
                         <div class="card-body -text">
@@ -266,7 +303,7 @@ background: linear-gradient(40deg, rgba(252, 242, 251, 0.52) 0%, rgba(255, 255, 
                         </div>
                     </div>
 
-                    <div class="card border-0 Portfolio-text">
+                    <div class="card ms-3 me-3 border-0 Portfolio-text">
                         <img src="image/1 (3).png" class="card-img-top Portfolio-image" alt="...">
                         <div class="card-body -text">
                             <p class=" text-body-tertiary">UI-UX DESIGN</p>
@@ -281,7 +318,7 @@ background: linear-gradient(40deg, rgba(252, 242, 251, 0.52) 0%, rgba(255, 255, 
                 </div>
 
                 <div class="card-group mt-5 ">
-                    <div class="card border-0 Portfolio-text">
+                    <div class="card ms-3 me-3 border-0 Portfolio-text">
                         <img src="image/1 (4).png" class="card-img-top Portfolio-image" alt="...">
                         <div class="card-body -text">
                             <p class=" text-body-tertiary">UI-UX DESIGN</p>
@@ -305,7 +342,7 @@ background: linear-gradient(40deg, rgba(252, 242, 251, 0.52) 0%, rgba(255, 255, 
 
                         </div>
                     </div>
-                    <div class="card  border-0 Portfolio-text ">
+                    <div class="card ms-3 me-3  border-0 Portfolio-text ">
                         <img src="image/1 (6).png" class="card-img-top Portfolio-image" alt="...">
                         <div class="card-body -text ">
                             <p class=" text-body-tertiary">UI-UX DESIGN</p>
@@ -314,14 +351,10 @@ background: linear-gradient(40deg, rgba(252, 242, 251, 0.52) 0%, rgba(255, 255, 
                                 molestie laoreet.
                                 Donec id imperdiet lacus.</p>
                             <a href=""><img class="Portfolio-icon" src="image/Button.svg" alt=""></a>
-
                         </div>
                     </div>
-
                 </div>
                 <div class="text-center mt-5"> <a href="" class="btn button text-center mx-auto">More project</a> </div>
-
-
             </div>
         </section>
 
@@ -337,7 +370,6 @@ background: linear-gradient(40deg, rgba(252, 242, 251, 0.52) 0%, rgba(255, 255, 
             </div>
         </section>
 
-
         <section>
             <div class="container mt-3">
                 <div class="Portfolio text-center">
@@ -346,13 +378,11 @@ background: linear-gradient(40deg, rgba(252, 242, 251, 0.52) 0%, rgba(255, 255, 
                         but the majority have suffered alteration.</p>
                 </div>
                 <div class="card-group mt-5">
-                    <div class="card border-0  Portfolio-text ">
+                    <div class="card ms-3 me-3 border-0  Portfolio-text ">
                         <img src="image/fah (1).svg" class="card-img-top Portfolio-image" alt="...">
                         <div class="card-body -text ">
                             <p class=" text-body-tertiary">22 Oct, 2020/246 Comments</p>
-
                             <p class="card-text">Lorem ipsum dolor sit consea. Nulla purus arcu</p>
-
 
                         </div>
                     </div>
@@ -361,38 +391,33 @@ background: linear-gradient(40deg, rgba(252, 242, 251, 0.52) 0%, rgba(255, 255, 
                         <div class="card-body -text">
                             <p class=" text-body-tertiary">22 Oct, 2020/246 Comments</p>
                             <p class="card-text">Lorem ipsum dolor sit consea. Nulla purus arcu</p>
-
                         </div>
                     </div>
-                    <div class="card border-0 Portfolio-text">
+                    <div class="card ms-3 me-3 border-0 Portfolio-text ">
                         <img src="image/fah (3).svg" class="card-img-top Portfolio-image" alt="...">
                         <div class="card-body ">
                             <p class=" text-body-tertiary">22 Oct, 2020/246 Comments</p>
                             <p class="card-text">Lorem ipsum dolor sit consea. Nulla purus arcu</p>
 
-
                         </div>
                     </div>
-                    <div class="card border-0 ms-3 Portfolio-text">
+                    <div class="card ms-3 me-3 border-0 ms-3 Portfolio-text">
                         <img src="image/fah (4).svg" class="card-img-top Portfolio-image" alt="...">
                         <div class="card-body ">
                             <p class=" text-body-tertiary">22 Oct, 2020/246 Comments</p>
                             <p class="card-text">Lorem ipsum dolor sit consea. Nulla purus arcu</p>
 
-
                         </div>
                     </div>
                 </div>
-
             </div>
         </section>
 
         <section class="work-process ">
             <div class="container bg-light">
                 <div class="row align-items-center">
-
-                    <div class="col-lg-5">
-                        <h2 class="title">What I do?</h2>
+                    <div class="col-lg-5 ms- ">
+                        <h2 class="title ">What I do?</h2>
                         <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu,
                             varius eget velit non, laoreet imperdiet orci. Mauris ultrices eget lorem ac vestibulum.
                             Suspendis imperdiet,</p>
@@ -462,11 +487,11 @@ line-height: 20px;">
                 <h2 class=" fw-bold fs-1">
                     Testimonial
                 </h2>
-                <p class="text-secondary mt-2 fs-6">
+                <p class="text-secondary mt-4  fs-6">
                     There are many variations of passages of Lorem Ipsum available,
                     but the majority have suffered alteration.
                 </p>
-                <span class=" fs-5 ">“Nulla efficitur nisl sit amet velit malesuada dapibus. Duis mollis felis turpis,
+                <span class=" fs-5  ">“Nulla efficitur nisl sit amet velit malesuada dapibus. Duis mollis felis turpis,
                     nec semper odio
                     convallis at. Curabitur imperdiet semper arcu, a finibus arcu suscipit in. Donec quis placerat nibh.
                     Maecenas est purus, eleifend ac cursus sed, tincidunt ut sapien.
@@ -476,20 +501,19 @@ line-height: 20px;">
             </div>
             <!-- </section> -->
             <!-- <section class="contact-section "> -->
-            <div class="container mt-5 contact-section ">
+             <div class="container mt-5 contact-section ">
                 <div class="row">
 
-                    <!-- Left Side -->
-                    <div class="col-md-5" style=" text-align: start!important">
-                        <h2 class="fw-bold">Let’s discuss your Project</h2>
-                        <p class="text-muted">
+                    <!-- <div class="col-md-5 " >
+                        <h2 class="fw-bold ">Let’s discuss your Project</h2>
+                        <p class="text-muted ">
                             There are many variations of passages of Lorem Ipsum available,
                             but the majority have suffered alteration.
                         </p>
 
                         <div class="contact-card d-flex align-items-center">
                             <div class="icon-box"><i class="fa-solid fa-location-dot"></i></div>
-                            <div class="ms-3">
+                            <div class="">
                                 <small class="text-muted">Address:</small>
                                 <h6 class="mb-0">New Mexico 31134</h6>
                             </div>
@@ -497,29 +521,28 @@ line-height: 20px;">
 
                         <div class="contact-card d-flex align-items-center">
                             <div class="icon-box"><i class="fa-regular fa-envelope"></i></div>
-                            <div class="ms-3">
+                            <div class="">
                                 <small class="text-muted">My Email:</small>
                                 <h6 class="mb-0">mdfahimahammed346@mail.com</h6>
                             </div>
                         </div>
 
-                        <div class="contact-card d-flex align-items-center">
+                        <div class=" contact-card  d-flex align-items-center">
                             <div class="icon-box"><i class="fa-solid fa-phone"></i></div>
-                            <div class="ms-3">
+                            <div class="">
                                 <small class="text-muted ">Call Me Now:</small>
-                                <h6 class="mb-0 ms-">01723241826</h6>
+                                <h6 class="">01723241826</h6>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
-                    <!-- Right Side Form -->
-                    <div class="col-md-7">
-                        <p class="text-muted">
+                    <!-- <div class="col-md-7  p-0">
+                        <p class="text-muted    ">
                             There are many variations of passages of Lorem Ipsum available,
                             but the majority have suffered alteration.
                         </p>
 
-                        <form>
+                        <form class="">
                             <div class="mb-4">
                                 <input type="text" class="form-control" placeholder="Name*" required>
                             </div>
@@ -547,20 +570,22 @@ line-height: 20px;">
 
                             <button type="submit" class="button">Send Message</button>
                         </form>
-                    </div>
+                    </div> -->
 
                 </div>
             </div>
+            
         </section>
         <!-- </section> -->
         <!-- </div> -->
-         
+
 
 
     </main>
+    <script src="Js/bootstrap.bundle.min.js"></script>
+
 
 </body>
 
-<script src="Js/bootstrap.bundle.min.js"></script>
 
 </html>
