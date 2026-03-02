@@ -27,6 +27,14 @@
     gap: 25px;
 }
 
+.nav-item:hover {
+    background: #8f2cf0;
+    color: #ffffff !important;
+    transition: 300ms;
+    border-radius: 4px;
+
+}
+
 @media (min-width: 992px) {
     .mobile-menu {
         display: none !important;
@@ -284,6 +292,8 @@
 
 .process-card:hover {
     transform: translateY(-6px);
+
+
 }
 
 .icon {
@@ -334,7 +344,7 @@
 
 .process-grid-whats {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    /* grid-template-columns: repeat(1, 1fr); */
     gap: 20px;
 }
 
@@ -346,9 +356,10 @@
 }
 
 .process-card-whats:hover {
-    transition: 0.3s;
+    transition: 300ms;
     transform: translateY(-6px);
     border-left: 6px solid #a53dff;
+
 }
 
 
@@ -399,7 +410,7 @@
     width: 50px;
     height: 50px;
     background: #e2c8fa88;
-    /* background: linear-gradient(45deg, #a855f7, #6366f1); */
+    background: linear-gradient(45deg, #a855f7, #6366f1);
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -409,9 +420,29 @@
     margin-right: 15px;
 }
 
-.icon-box:hover {
+.process-card:hover .icon-box {
     background: #8d5bea;
     color: #f8f9fb;
+    transition: 300ms;
+}
+
+.contact-card:hover .icon-box {
+    background: #8d5bea;
+    color: #f8f9fb;
+    transition: 300ms;
+
+}
+
+.icon-box {
+    width: 45px;
+    height: 45px;
+    background: #e9d8ff;
+    color: #6f42c1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 20px;
 }
 
 .form-control {
@@ -448,12 +479,13 @@
 @media (max-width: 992px) {
     .hero-content h1 {
         font-size: 30px;
+        text-align: center;
     }
 }
 
 @media (max-width: 992px) {
-    .recent-posts {
-        font-size: 12px;
+    .person-1 {
+        text-align: center;
     }
 }
 
